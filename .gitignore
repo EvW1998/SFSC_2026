@@ -1,0 +1,32 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.data_deps/
+
+# Competition data, downloaded assets, and generated artifacts
+/MAGFiLO_1.0_Kaggle_2026/
+/datasets/
+/model_assets/
+/runs/
+/outputs/
+/cascade_test_*/
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.npz
+*.cache
+*.log
+submission.csv
+
+# Credentials and machine-specific settings
+.env
+.env.*
+*.pem
+kaggle.json
+.ssh/
+.codex/

@@ -1,0 +1,10 @@
+# Python 3.10–3.12. Install matching PyTorch/torchvision builds for your device.
+torch>=2.0.1
+torchvision>=0.15.2
+numpy>=1.26,<3
+Pillow>=9.1
+pycocotools>=2.0.10,<3
+opencv-python>=4.7,!=4.13.0.90,<5
+safetensors>=0.4
+ultralytics==8.4.174
+segmentation-models-pytorch==0.5.0
